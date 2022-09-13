@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "appPrimovideo",
+    "slug": "appPrimovideo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/imagens/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/imagens/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/imagens/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/imagens/favicon.png"
+    }
+  }
+}
